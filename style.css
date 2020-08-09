@@ -1,0 +1,354 @@
+body{
+    margin: 0;
+height: 100%!important;
+}
+#centerIcon{
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.contact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #749C8D;
+    min-height: 64px;
+
+}
+
+.contact-header-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font: Lighter 12px "Exo 2";
+}
+.contact-header-icon {
+    display: flex;
+    align-items: center;
+}
+.contact-header-aboutImg{
+    background: url(img/logo.svg) no-repeat;
+    width: 44px;
+    height: 50px;
+    margin-right: 13px;
+}
+.contact-header-aboutText{
+    color: white;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.timeBannerContainer{
+    text-align: -webkit-center;
+}
+.product{
+
+
+}
+
+
+.rub {
+    line-height: 5px;
+    width: 0.4em;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+}
+.oldCardPrice{
+    text-decoration:line-through;
+    font-size: 30px;
+    padding-left: 25px;
+}
+.CardPrice{
+    color: #A24722;
+    font-size: 37px;
+    padding-left: 24px;
+    margin-bottom: 16px;
+}
+.but{
+   max-width: 220px;
+    height: 42px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.popover-title,.popover-content{
+    font-size: 18px!important;
+    color: #004734;
+    line-height: 26px!important;
+}
+.buttonInfo{
+    color:#8A3E19;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px dashed #8A3E19;
+}
+.buttonInfo:hover{
+    text-decoration: none;
+}
+.header{
+    position: sticky;
+}
+
+.fixed-box {
+    height: 60px;
+}
+.fixed-div {
+    height: 20px;
+    text-align: center;
+}
+.fixed {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+}
+.cardImg{
+    background: url(img/cardImg.png) no-repeat;
+   min-width: 186px;
+    height: 220px;
+    margin-right: 13px;
+margin-top: 23px;
+}
+
+
+.cardImgContainter{
+    display: flex;
+}
+.card{
+    background: #DFE4EC;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    max-width: 440px;
+    padding-bottom: 7px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+.butInfo{
+    color:#8A3E19;
+    background: white;
+    border: solid 1px #8A3E19;
+}
+.cardImgPrices{
+    background: #FFFFFF;
+    margin-top: 25px;
+    margin-right: 19px;
+}
+.cardImgSell {
+    background: url(img/sell.png) no-repeat;
+    min-width: 105px;
+    height: 90px;
+    position: absolute;
+    right: 0;
+}
+.cardContent{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardText p{
+    font-size: 19px;!important;
+    font-weight: 100;!important;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+
+#cardTittleUn{
+    color: black;
+    font-size: 24px;
+    text-decoration: underline;
+
+
+}
+.cardTextTittle{
+    color: black;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 9px;
+    padding-left: 0px;
+}
+.cardButton{
+    text-align: right;
+    padding-right: 10px;
+}
+.buttonInfoContainer button{
+    padding-right: 0px!important;
+}
+.cardShareContent a{
+    color: #AEAEAE!important;
+}
+.cardShareContent{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+.vk{
+    background: url("img/vk.png");
+    width: 27px;
+    height: 27px;
+}
+.instagram{
+    background: url("img/insta.png");
+    width: 27px;
+    height: 27px;
+}
+.facebook{
+    background: url("img/facebook.png");
+    width: 27px;
+    height: 27px;
+}
+.content{
+    align-self: center;
+}
+
+.odnoklassniki{
+    background: url("img/dnoklass.png");
+    width: 27px;
+    height: 27px;
+}
+
+.youtube{
+    background: url("img/youtube.png");
+    width: 27px;
+    height: 27px;
+}
+
+.linkedin{
+    background: url("img/linkedin.png");
+    width: 27px;
+    height: 27px;
+}
+.pencil{
+    background: url("img/pencil.png");
+    width: 27px;
+    height: 27px;
+}
+.smile{
+    background: url("img/smile.png");
+    width: 27px;
+    height: 27px;
+}
+.yandex{
+    background: url("img/yandex.png");
+    width: 27px;
+    height: 27px;
+}
+.google-pluse{
+    background: url("img/google.png");
+    width: 27px;
+    height: 27px;
+}
+.cardShare{
+    background: #FFFFFF;
+    height: 100%;
+}
+.cardShareTittle{
+    font-size: 17px;
+    color: #004734;
+    margin-top: 7px;
+    margin-bottom: 13px;
+    text-align: -webkit-center;
+}
+.contentRow:nth-child(odd) {
+  margin-right: 20px!important;
+}
+.row{
+    margin-bottom: 50px!important;
+}
+
+.news{
+    background: #80C9B0;
+    border: 1px dashed #608F7F;
+    display: flex;
+    flex-direction: row;
+}
+.arrowRight {
+    background: url(img/arrowRight.png);
+    width: 78px;
+    height: 51px;
+    position: absolute;
+    left: -60px;
+    bottom: 28px;
+}
+.arrowLeft {
+    background: url(img/arrowLeft.png);
+    width: 78px;
+    height: 51px;
+    position: absolute;
+    right: -55px;
+    bottom: 28px;
+}
+ .newsContainer{
+     display: flex;
+     flex-direction: row;
+     position: relative;
+     place-content: center;
+ }
+ .news{
+     max-width: 940px;
+     height: 100px;
+     align-items: center;
+     place-content: center;
+     padding-right: 3px;
+
+ }
+
+ .newsContent{
+     display: flex;
+     padding-left: 4px;
+ }
+ .newsButton button{
+     font-size: 21px;
+ }
+ .form-control{
+     height: 43px!important;
+ }
+
+ .newsName,.newsEmail{
+     margin-right: 15px;
+     width: 276px;
+ }
+
+.oneRow{
+    display: flex;
+    justify-content: center;
+}
+.politics{
+    border-right: solid 1px white;
+    padding-right: 7px;
+}
+.register{
+    border-right: solid 1px white;
+    padding-right: 7px;
+}
+.footer{
+    height: 228px;
+    background: #A4A4A5;
+}
+.footerContent{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.footerContent a{
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+.oferta,.login{
+    padding-left: 7px;
+}

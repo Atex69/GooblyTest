@@ -1,0 +1,40 @@
+
+@media (min-width: 350px) and (max-width: 800px) {
+.card{
+    margin-bottom: 30px;
+}
+    .cardTextTittle,#cardTittleUn{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #timeImg{
+        width: 100%!important;
+    }
+    .news{
+        width: 65%!important;
+        height: 100%!important;
+
+    }
+    .newsContent{
+        flex-direction: column;
+    }
+    .arrowLeft,.arrowRight{
+        display: none;
+    }
+    .newsContainer{
+        width: 100%;
+    }
+    .newsName,.newsEmail,.newsButton{
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .newsButton{
+
+        align-self: center;
+    }
+    .newsButton button {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+}
