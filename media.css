@@ -1,7 +1,10 @@
 
-@media (min-width: 350px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 800px) {
 .card{
     margin-bottom: 30px;
+}
+.oneRow{
+    justify-content: normal;
 }
     .cardTextTittle,#cardTittleUn{
         font-size: 20px;
@@ -15,6 +18,22 @@
         height: 100%!important;
 
     }
+    .politics{
+        border-right: none;
+        padding-left: 20px;
+
+    }
+    .oferta, .Clientlogin,.register {
+        padding-left: 20px;
+    }
+    #oneRowOne{
+        flex-direction: column;
+    }
+
+    .footerContent{
+        align-items: normal;
+    }
+
     .newsContent{
         flex-direction: column;
     }

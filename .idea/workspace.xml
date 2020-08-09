@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e340508c-642a-4705-89f6-e30c697d8941" name="Default Changelist" comment="">
+    <list default="true" id="e340508c-642a-4705-89f6-e30c697d8941" name="Default Changelist" comment="поправил фон заголовка popover">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +42,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fmMYVaCwz7FWTk0R1q1fWr0psU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -50,12 +72,36 @@
       <workItem from="1596818868675" duration="5430000" />
       <workItem from="1596835701070" duration="2347000" />
       <workItem from="1596847056286" duration="4458000" />
-      <workItem from="1596936563312" duration="25115000" />
+      <workItem from="1596936563312" duration="26142000" />
     </task>
+    <task id="LOCAL-00001" summary="поправил фон заголовка popover">
+      <created>1597013274677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597013274677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="поправил фон заголовка popover" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправил фон заголовка popover" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="295" key="FileChooserDialogImpl" timestamp="1597001275931">
@@ -66,6 +112,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="430" y="185" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1597012364289" />
+    <state x="521" y="273" key="Vcs.Push.Dialog.v2" timestamp="1597013278176">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="521" y="273" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1597013278176" />
     <state x="592" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1596847544138">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
